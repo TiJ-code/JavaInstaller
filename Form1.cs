@@ -43,7 +43,7 @@ namespace JavaInstaller
 
             Console.WriteLine("\n" + strOutput);
 
-            if((strOutput.Contains("15")) || strOutput == null)
+            if(!(strOutput.Contains("15")) || strOutput == null)
             {
                 this.installButton.Enabled = true;
             }            
