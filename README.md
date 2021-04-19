@@ -4,8 +4,3 @@
   der aktuell neusten Version zum Download angeboten.
   
 ## Installation
-
-
-### Installation 2
-
-#### Installation 3
