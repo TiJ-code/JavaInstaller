@@ -1,0 +1,10 @@
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\bin\Debug\JavaInstaller.exe.config
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\bin\Debug\JavaInstaller.exe
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\bin\Debug\JavaInstaller.pdb
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.MainForm.resources
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.Properties.Resources.resources
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.csproj.GenerateResource.cache
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.csproj.CoreCompileInputs.cache
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.exe
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.pdb
+E:\Data\Programmieren\Development\workspace - VS\JavaInstaller\JavaInstaller\JavaInstaller\obj\Debug\JavaInstaller.csprojAssemblyReference.cache
