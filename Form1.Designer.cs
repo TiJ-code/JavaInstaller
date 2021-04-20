@@ -32,6 +32,7 @@ namespace JavaInstaller
             this.installButton = new System.Windows.Forms.Button();
             this.ask = new System.Windows.Forms.Label();
             this.line = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // installButton
@@ -65,11 +66,22 @@ namespace JavaInstaller
             this.line.TabIndex = 2;
             this.line.Text = "__________________________________________________________________________";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Location = new System.Drawing.Point(3, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(10, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = ".";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 116);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.line);
             this.Controls.Add(this.ask);
             this.Controls.Add(this.installButton);
@@ -91,6 +103,7 @@ namespace JavaInstaller
         private System.Windows.Forms.Button installButton;
         private System.Windows.Forms.Label ask;
         private System.Windows.Forms.Label line;
+        private System.Windows.Forms.Label label1;
     }
 }
 

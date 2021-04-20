@@ -46,14 +46,30 @@ namespace JavaInstaller
             if(!(strOutput.Contains("15")) || strOutput == null)
             {
                 this.installButton.Enabled = true;
-            }            
+                this.label1.ForeColor = System.Drawing.Color.Red;
+                this.label1.Text = "Ihre Version ist älter als die Notewendige. Bitte drücken Sie den Blauen Button.";
+            }
+
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Text = "Sie haben die aktuelle Java Version";
         }
 
         // Download
         private void installJava()
         {
             string download = Environment.GetEnvironmentVariable("USERPROFILE") + @"\" + "Downloads";
-            Process.Start("notepad.exe", download + "\\InstallApp\\java_15.txt");
+            Process proc = new Process();
+
+            try
+            {
+                proc.StartInfo.UseShellExecute = false;
+
+                proc.StartInfo.FileName = download + "\\InstallApp\\java_15.exe";
+                proc.Start();
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
 
         private string findJavaVersion()
